@@ -18,15 +18,3 @@ for(let i = 0; i < nomes.length; i++) {
 };
 
 
-//Metodos push e pop servem para adicionar e remover um elemento do array, se atribuido a uma variavel o pop ainda nos retorna o elemento removido. Os dois metodos sempre removem 
-//e adicionam o ultimo elemento do array.
-
-let nomeRemovido = nomes.pop();
-
-console.log(nomeRemovido);
-
-console.log(nomes);
-
-nomes.push('Guiomar');
-
-console.log(nomes);
