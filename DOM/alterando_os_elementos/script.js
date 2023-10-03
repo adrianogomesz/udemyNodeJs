@@ -26,3 +26,11 @@ let parentHeading = heading.parentNode;
 
 parentHeading.replaceChild(elementoNovo, heading);
 
+//appendChild para inserir textos em uma tag html já criada.
+
+let texto2 = document.createTextNode("Inserindo texto com appendChild");
+
+let paragrafoVazio = document.getElementById("paragrafo-vazio");
+
+paragrafoVazio.appendChild(texto2);
+
